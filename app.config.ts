@@ -11,4 +11,8 @@ export default defineConfig({
       tailwindcss(),
     ],
   },
+  server: {
+    preset: "bun",
+    serveStatic: "node",
+  },
 });
